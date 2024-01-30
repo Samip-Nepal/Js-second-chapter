@@ -20,18 +20,28 @@ console.log("a=" ,a ,"b=",b);
 // console.log("a=",--a);
 //  console.log(a);
  //Assigment operator
- a+=1;
- console.log("a=",a);
- a-=1;
- console.log("a=",a);
- a*=1;
- console.log("a=",a);
- b/=1;
- console.log("b=",b);
- b%=3;
- console.log("b=",b);
- b**=2;
- console.log("b=",b);
+//  a+=1;
+//  console.log("a=",a);
+//  a-=1;
+//  console.log("a=",a);
+//  a*=1;
+//  console.log("a=",a);
+//  b/=1;
+//  console.log("b=",b);
+//  b%=3;
+//  console.log("b=",b);
+//  b**=2;
+//  console.log("b=",b);
+//Comparison operator
+console.log(a==b);//false
+console.log(a!==b);//true
+console.log(a===b);//false(its check string also)
+console.log(a!=b);//true
+console.log(a>b);//true
+console.log(a<b);//false
+console.log(a>=b);//true
+console.log(a<=b);//false
+
 
 
 
