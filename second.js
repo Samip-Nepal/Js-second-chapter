@@ -1,13 +1,13 @@
 //Condition statement
-let mode="light";
+let mode="White";
 let color;
 if(mode==="light"){
     color="DarK";
 }
-if(mode==="dark"){
-    color="Green";
+else
+{
+    console.log("Green");
 }
-console.log(color);
 
 
 
