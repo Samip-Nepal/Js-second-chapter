@@ -1,7 +1,15 @@
 let a=8;
 let b=5;
-// Arithmetic operator
+
 console.log("a=" ,a ,"b=",b);
+//logical operator
+console.log(a==8 && a>b);//true And operator
+console.log(a==8 && a<b);//False
+console.log(a==8 || a<b);//true Or operator
+console.log(a==5 || a<b);//False
+console.log(!(a==5));//True
+
+//Arthmentic operator
 // console.log("a+b=",a + b);
 // console.log("a-b=",a - b);
 // console.log("a*b=",a * b);
@@ -33,14 +41,14 @@ console.log("a=" ,a ,"b=",b);
 //  b**=2;
 //  console.log("b=",b);
 //Comparison operator
-console.log(a==b);//false
-console.log(a!==b);//true
-console.log(a===b);//false(its check string also)
-console.log(a!=b);//true
-console.log(a>b);//true
-console.log(a<b);//false
-console.log(a>=b);//true
-console.log(a<=b);//false
+// console.log(a==b);//false
+// console.log(a!==b);//true
+// console.log(a===b);//false(its check string also)
+// console.log(a!=b);//true
+// console.log(a>b);//true
+// console.log(a<b);//false
+// console.log(a>=b);//true
+// console.log(a<=b);//false
 
 
 
