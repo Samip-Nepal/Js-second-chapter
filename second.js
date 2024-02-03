@@ -1,14 +1,16 @@
 //Condition statement
-let mode="White";
-let color;
-if(mode==="light"){
-    color="DarK";
+let age=25;
+if(age<18){
+    console.log("Junior");
 }
-else
+else if(age>60)
 {
-    console.log("Green");
+    console.log("Senior");
 }
-
+else 
+{
+    console.log("middle boy");
+}
 
 
 
