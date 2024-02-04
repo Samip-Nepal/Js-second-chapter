@@ -1,23 +1,12 @@
-//Condition statement
-let exp="Samip";
-switch (exp) {
-    case "Nepal":
-        {
-            console.log("Samip is god boy");
-        }
-        
-        break;
-        case "Student":
-            {
-                console.log("Samip hero");
-                
-            }
-break;
-case "Samip": {
-console.log("Don");
+let number= prompt ("Enter the number:");
+{
+if ( number%5===0){
+    console.log("Is mutiple of 5");
+    
 }
-    default:"Ok"
-        break;
+else{
+    console.log("Not mutliple of 5");
+}
 }
 
 
